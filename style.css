@@ -1,0 +1,196 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+body{
+	margin-top: 100px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color:#6f3f4d;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#657268;
+}
+
+.navbar-brand{
+	background-image: url('img/logo-web.png');
+	background-size: cover;
+	width: 260px;
+	height:80px;
+	text-indent: -2000px;
+
+}
+
+
+.flex-control-nav {
+
+    bottom: 10px;
+
+}
+
+.flexslider .slides img {
+    width: 100%;
+    display: block;
+}
+
+#imageCycle {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.flex-viewport-portfolio {
+	height: 550px;
+}
+#intro{
+	background-color: #2e3c3c;
+	color: #fff;
+}
+#form{
+	background-image: url(img/circles-light.png);
+}
+.flexslider {
+	margin: 0 0 -10px;
+	
+}
+
+input{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 5px;
+    border-radius: 5px;
+}
+
+select{
+	width: 100%;
+    margin-bottom: 20px;
+}
+textarea{
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-top: 20px;
+    width: auto;
+    padding: 5px 10px;
+	background-color: #2e3c3c;
+	color: #fff;
+}
+
+a {
+    color: #6f3f4d;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+	color: #657268;
+	text-decoration: none;
+}
+
+h2.blog{
+	color: #6f3f4d;
+}
+
+#blog{
+	background-color: #eaeaec;
+	-moz-box-shadow:    inset 0 0 10px  rgba(0,0,0,.25);
+   -webkit-box-shadow: inset 0 0 10px  rgba(0,0,0,.25);
+   box-shadow:         inset 0 0 10px  rgba(0,0,0,.25);
+}
+
+.card{
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,.25);
+	   -moz-box-shadow: 0 8px 6px -6px  rgba(0,0,0,.25);
+	        box-shadow: 0 8px 6px -6px  rgba(0,0,0,.25);
+}
+
+
+#featured, footer{
+	color: #fff;
+	background-color: #404040;
+	text-align: center;
+	padding: 30px 0;
+}
+
+footer svg{
+	width: 20px;
+}
+
+footer a{
+	color:#fff;
+}
+
+footer a:hover{
+	color:rgb(192, 191, 191);
+}
+
+.flex-control-thumbs li {
+    width: 20%;
+    float: left;
+    margin: 0;
+}
+
+section.title{
+	z-index: 2;
+    position: relative;
+    top: 40px;
+    left: 90px;
+    padding: 20px;
+    color: #fff;
+    background-color: #6f3f4d;
+}
+
+
+.navbar-toggler {
+	background-color: #fff !important;
+	border-color: #fff;
+
+}
+
+.blog-feature{
+	width: 100%;
+	background-size: cover;
+
+	height:400px;
+	background-image:url('https://secureservercdn.net/166.62.109.105/5d9.f3c.myftpupload.com/wp-content/uploads/2019/07/Philadelphia-Engagement-Photography-1.jpg?time=1569194942');
+}
+.faq-feature{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height:400px;
+	background-image:url('https://secureservercdn.net/166.62.109.105/5d9.f3c.myftpupload.com/wp-content/uploads/2018/06/moorestown-wedding-photographer-1024x655.jpg');
+}
+section#blog-txt{
+	padding: 20px 40px;
+	background-color: #fff;
+	width: 90%;
+	margin-top: -20px;
+	background-position: center;
+}
+
+.bio-feature{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	height:400px;
+	background-image:url('http://secureservercdn.net/45.40.148.221/58o.00a.myftpupload.com/wp-content/uploads/2016/09/NICOLE-CORDISCO-271-5-1024x614.jpg');
+}
